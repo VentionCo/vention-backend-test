@@ -1,0 +1,17 @@
+{
+  "name": "vention-quest",
+  "version": "1.0.0",
+  "description": "Take-home assessment for VOPS team.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Vention",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "knex": "^0.95.15",
+    "pg": "^8.7.1"
+  }
+}
