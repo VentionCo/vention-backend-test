@@ -7,7 +7,9 @@ A composition is a top down tree without repeated materials.
 A weapon is composed of **multiple materials**. It has a **name**, **power_level**, and  **qty**. It can also be one of the following **status**: "new" or "broken".
 >For example, an "Axe" is composed of materials with ID 9 and 12, has a power level of:
 >> ID 9  ➡️  90 + 5*(130 + 10*220) = **11,740**
+>>
 >> ID 12 ➡️ **300**
+>>
 >> Total would be **14740**
 
 
@@ -27,6 +29,8 @@ A weapon is composed of **multiple materials**. It has a **name**, **power_level
 
 5) API endpoint to fetch the maximum quantity of a single **Weapon** that we can build.
 	> Example. **Axe** can be built:
-			ID 9  ➡️ 25 + (100 + (110/10))/5 =  47
-			ID 12 ➡️ 120
-			Max number of builds = 47
+	> ID 9  ➡️ 25 + (100 + (110/10))/5 =  47
+	> 
+	> ID 12 ➡️ 120
+	> 
+	> Max number of builds = 47
