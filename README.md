@@ -2,7 +2,8 @@
 **GOAL**
 - Complete the Quests listed below.
 - Provide access to your code, e.g. link to a GitHub repo.
-
+<br />
+<br />
 
 **TERMINOLOGIES**
 - A composition is a mapping between materials. 
@@ -16,10 +17,13 @@
 	>>
 	>> Total would be **14740**
 
+<br />
+<br />
 
 **QUESTS**:
 1) Design and create a **Weapon** object in the database and a model class. Create the following seed weapons*:
 	> **Excalibur** composed of the following list of materials: ID(1), ID(6), ID(9), ID(12)
+	>
 	> **Magic Staff** composed of the following material: ID(6)
 
 	\*_Seed files for materials & compositions are already created._
