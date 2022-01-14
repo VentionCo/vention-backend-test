@@ -1,16 +1,20 @@
 # ⚔️ VENTION QUEST  ⚔️
+**GOAL**
+- Complete the Quests listed below.
+- Provide access to your code, e.g. link to a GitHub repo.
 
-A composition is a mapping between materials. A material can be composed of other materials with a specified quantity.
 
-A composition is a top down tree without repeated materials.
-
-A weapon is composed of **multiple materials**. It has a **name**, **power_level**, and  **qty**. It can also be one of the following **status**: "new" or "broken".
->For example, an "Axe" is composed of materials with ID 9 and 12, has a power level of:
->> ID 9  ➡️  90 + 5*(130 + 10*220) = **11,740**
->>
->> ID 12 ➡️ **300**
->>
->> Total would be **14740**
+**TERMINOLOGIES**
+- A composition is a mapping between materials. 
+- A material can be composed of other materials with a specified quantity.
+- A composition is a top down tree without repeated materials.
+- A weapon is composed of **multiple materials**. It has a **name**, **power_level**, and  **qty**. It can also be one of the following **status**: "new" or "broken".
+	>For example, an "Axe" is composed of materials with ID 9 and 12, has a power level of:
+	>> ID 9  ➡️  90 + 5*(130 + 10*220) = **11,740**
+	>>
+	>> ID 12 ➡️ **300**
+	>>
+	>> Total would be **14740**
 
 
 **QUESTS**:
