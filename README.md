@@ -17,6 +17,9 @@
 	>>
 	>> Total would be **14740**
 
+Reference diagram from the seed data:
+![Material Examples](https://user-images.githubusercontent.com/35694241/150205902-0d6dbc73-d654-4249-97d1-f0b47a38640c.png)
+
 <br />
 <br />
 
