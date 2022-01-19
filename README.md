@@ -18,8 +18,9 @@
 	>> Total would be **14740**
 
 Reference diagram from the seed data:
-![Material Examples](https://user-images.githubusercontent.com/35694241/150205902-0d6dbc73-d654-4249-97d1-f0b47a38640c.png)
+<br />
 
+<img width="1004" alt="materials" src="https://user-images.githubusercontent.com/35694241/150206213-ad2166ab-5bc7-492d-a0d5-5fb44e99ec1f.png">
 <br />
 <br />
 
