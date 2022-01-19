@@ -14,7 +14,7 @@ class Material {
       let material = await db(table).where('id', id).first();
       return new Material(material);
     } catch (e) {
-      throw new Error('Weapon not found');
+      throw new Error('Material not found');
     }
   }
 

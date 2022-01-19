@@ -34,6 +34,7 @@
 4) CRUD methods for **Material** class.
 		_The "**find**" method is already created_
 	>Note: Deletion of an material should mark the weapon that uses the material as "broken" and updates the "deleted_at" field of the parent material(s)
+	>Note: Update of an material should follow quest #3's logic as well
 
 5) API endpoint to fetch the maximum quantity of a single **Weapon** that we can build.
 	> Example. **Axe** can be built:
