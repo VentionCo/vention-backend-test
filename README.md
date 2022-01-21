@@ -15,7 +15,7 @@
 	>>
 	>> ID 12 ➡️ **300**
 	>>
-	>> Total would be **14740**
+	>> Total would be **12040**
 
 Reference diagram from the seed data:
 <br />
