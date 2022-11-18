@@ -2,6 +2,7 @@
 **GOAL**
 - Complete the Quests listed below.
 - Provide access to your code, e.g. link to a GitHub repo.
+- Aim for performance and code efficiency
 <br />
 <br />
 
@@ -9,7 +10,7 @@
 - A composition is a mapping between materials. 
 - A material can be composed of other materials with a specified quantity.
 - A composition is a top down tree without repeated materials.
-- A weapon is composed of **multiple materials**. It has a **name**, **power_level**, and  **qty**. It can also be one of the following **status**: "new" or "broken".
+- A weapon is composed of **multiple materials**. It has a **name**, **power_level**, and  **qty**. 
 	>For example, an "Axe" is composed of materials with ID 9 and 12, has a power level of:
 	>> ID 9  ➡️  90 + 5*(130 + 10*220) = **11,740**
 	>>
@@ -35,9 +36,8 @@ Reference diagram from the seed data:
 
 3) API endpoint to update material power level and making sure the weapon(s) that uses it is also updated.
 
-4) CRUD methods for **Material** class.
+4) Update method for **Material** class.
 		_The "**find**" method is already created_
-	>Note: Deletion of an material should mark the weapon that uses the material as "broken" and updates the "deleted_at" field of the parent material(s)
 	>
 	>Another note: Update of an material should follow quest #3's logic as well
 5) API endpoint to fetch the maximum quantity of a single **Weapon** that we can build.
