@@ -4,6 +4,7 @@ const table = 'materials';
 class Material {
   constructor(payload) {
     this.id = payload.id;
+    this.name = payload.name;
     this.power_level = payload.power_level;
     this.qty = payload.qty;
     this.deleted_at = payload.deleted_at;
