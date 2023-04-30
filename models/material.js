@@ -17,9 +17,6 @@ class Material {
 
   // TO BE IMPLEMENTED
   update() {}
-
-  // TO BE IMPLEMENTED
-  delete() {}
 }
 
 module.exports = Material;
