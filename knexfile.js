@@ -1,10 +1,10 @@
-require("dotenv").config();
-const pg = require("pg");
+require('dotenv').config();
+const pg = require('pg');
 // pg.defaults.ssl = true;
 
 module.exports = {
   development: {
-    client: "pg",
+    client: 'pg',
     useNullAsDefault: true,
     connection: {
       host: process.env.POSTGRES_HOST,
@@ -14,10 +14,11 @@ module.exports = {
       database: process.env.POSTGRES_DATABASE
     },
     migrations: {
-      directory: "./database/migrations"
+      directory: './database/migrations',
+      stub: './database/migration.stub'
     },
     seeds: {
-      directory: "./database/seeds"
+      directory: './database/seeds'
     }
   }
 };
