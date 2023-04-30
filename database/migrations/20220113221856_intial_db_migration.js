@@ -1,3 +1,6 @@
+/**
+ * @param {import('knex').Knex} knex
+ */
 exports.up = async function (knex) {
   await knex.schema.createTable('materials', function (t) {
     t.increments('id').unsigned().primary();
@@ -12,6 +15,9 @@ exports.up = async function (knex) {
   });
 };
 
+/**
+ * @param {import('knex').Knex} knex
+ */
 exports.down = async function (knex) {
   await knex.schema.dropTable('materials');
   await knex.schema.dropTable('compositions');
