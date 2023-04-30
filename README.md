@@ -14,18 +14,30 @@
 - A material can be composed of other materials with a specified quantity.
 - A composition is a top down tree without repeated materials.
 - A weapon is composed of **multiple materials**. It has a **name**, **power_level**, and **qty**.
+- A material has a **base_power**, which influences the **power_level** of any weapon that uses it.
   > For example, an "Axe" is composed of materials with ID 9 and 12, has a power level of:
   >
   > > ID 9 ➡️ 90 + 5*(130 + 10*220) = **11,740**
+  > > > 90 = the Base Power of material ID(9)
+  > > >
+  > > > 5 = the quantity required to make 1 unit of material ID(9) from ID(10)
+  > > >
+  > > > 130 = the Base Power of material ID(10)
+  > > >
+  > > > 10 = the quantity required to make 1 unit of material ID(10) from ID(11)
+  > > >
+  > > > 220 = the Base Power of material ID(11)
   > >
   > > ID 12 ➡️ **300**
+  > > > 300 = the Base Power of material ID (12)
   > >
   > > Total would be **12040**
 
 Reference diagram from the seed data:
 <br />
 
-<img width="1004" alt="materials" src="https://user-images.githubusercontent.com/35694241/150206213-ad2166ab-5bc7-492d-a0d5-5fb44e99ec1f.png">
+<img width="1004" alt="materials" src="https://user-images.githubusercontent.com/13532850/235346434-2f318669-ff0b-4b34-8156-5942eafa097b.png">
+
 <br />
 <br />
 
@@ -48,7 +60,8 @@ Reference diagram from the seed data:
    > Another note: Update of an material should follow quest #3's logic as well
 5. API endpoint to fetch the maximum quantity of a single **Weapon** that we can build.
    > Example. **Axe** can be built:
-   > ID 9 ➡️ 25 + (100 + (110/10))/5 = 47
+   >
+   > ID 9 ➡️ 25 + ((100 + (110/10) ) / 5) = 47
    >
    > ID 12 ➡️ 120
    >
