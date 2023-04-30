@@ -10,12 +10,9 @@ class Material {
   }
 
   static async find(id) {
-    try {
-      let material = await db(table).where('id', id).first();
-      return new Material(material);
-    } catch (e) {
-      throw new Error('Material not found');
-    }
+    const material = await db(table).where('id', id).first();
+    if (!material) return null;
+    return new Material(material);
   }
 
   // TO BE IMPLEMENTED
