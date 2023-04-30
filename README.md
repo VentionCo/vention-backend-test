@@ -15,7 +15,7 @@
 - A composition is a top down tree without repeated materials.
 - A weapon is composed of **multiple materials**. It has a **name**, **power_level**, and **qty**.
 - A material has a **base_power**, which influences the **power_level** of any weapon that uses it.
-  > For example, an "Axe" is composed of materials with ID 9 and 12, has a power level of:
+  > For example, an "Axe" weapon is composed of materials with ID 9 and 12, has a power level of:
   >
   > > ID 9 ➡️ 90 + 5*(130 + 10*220) = **11,740**
   > > > 90 = the Base Power of material ID(9)
