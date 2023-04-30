@@ -1,9 +1,9 @@
-const router = require("express").Router();
+const router = require('express').Router();
 
-const MaterialService = require("../services/materialService.js");
+const MaterialService = require('../services/materialService.js');
 
 // IMPLEMENT CRUD FOR WEAPON
-router.get("/:id", async (req, res) => {
+router.get('/:id', async (req, res) => {
   try {
     const material = await MaterialService().getMaterial(req.params.id);
     res.status(200).json(material);
