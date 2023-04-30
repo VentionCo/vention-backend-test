@@ -5,7 +5,7 @@ exports.up = async function (knex) {
   await knex.schema.createTable('materials', function (t) {
     t.increments('id').unsigned().primary();
     t.text('name');
-    t.integer('power_level');
+    t.integer('base_power');
     t.integer('qty');
     t.timestamp('deleted_at');
   });
