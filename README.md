@@ -11,7 +11,7 @@
 **TERMINOLOGIES**
 
 - A composition is a mapping between materials.
-- A material can be composed of other materials with a specified quantity.
+- A material can be composed of other multiple materials, each with a specified quantity.
 - A composition is a top down tree without repeated materials.
 - A weapon is composed of **multiple materials**. It has a **name**, **power_level**, and **qty**.
 - A material has a **base_power**, which influences the **power_level** of any weapon that uses it.
