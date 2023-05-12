@@ -45,7 +45,7 @@ Reference diagram from the seed data:
 
 1. Design and create a **Weapon** object in the database and a model class. Create the following seed weapons\*:
 
-   > **Excalibur** composed of the following list of materials: ID(1), ID(6), ID(9), ID(12)
+   > **Excalibur** composed of the following list of materials: ID(1), ID(6), ID(9)
    >
    > **Magic Staff** composed of the following material: ID(6)
 
